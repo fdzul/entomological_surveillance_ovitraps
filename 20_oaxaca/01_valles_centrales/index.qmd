@@ -51,3 +51,233 @@ path <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
 deneggs::ovitraps_occupancy_abundancy(path_ovitraps  = path,
                                       scale = "blocks")
 ```
+
+## Mapa de la Abundancia de Huevos 
+
+
+### 2024
+
+#### Semana 10
+```{r eggs_2024_sem10, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 12,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = FALSE)
+```
+
+#### Semana 25
+```{r eggs_2024_sem25, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 25,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = FALSE)
+```
+
+#### Semana 30
+```{r eggs_2024_sem30, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 30,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = FALSE)
+```
+
+#### Semana 30
+```{r eggs_2024_sem40, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 40,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = FALSE)
+```
+
+
+
+### 2025
+
+#### Semana 10
+```{r eggs_2025_sem10, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 10,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = FALSE)
+```
+
+#### Semana 11
+```{r eggs_2025_sem11, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 11,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = FALSE)
+```
+
+#### Semana 12
+```{r eggs_2025_sem12, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 12,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = FALSE)
+```
+
+
+## Mapa del Riesgo Entomológico de Huevos
+
+### 2024
+
+#### Semana 10
+```{r eggs_risk_2024_sem10, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 12,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = TRUE)
+```
+
+#### Semana 25
+```{r eggs_risk_2024_sem25, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 25,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = TRUE)
+```
+
+#### Semana 30
+```{r eggs_risk_2024_sem30, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 30,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = TRUE)
+```
+
+#### Semana 40
+```{r eggs_risk_2024_sem40, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 40,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = TRUE)
+```
+
+
+### 2025
+
+#### Semana 10
+```{r eggs_risk_2025_sem10, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 10,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = TRUE)
+```
+
+#### Semana 11
+```{r eggs_risk_2025_sem11, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 11,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = TRUE)
+```
+
+#### Semana 12
+```{r eggs_risk_2025_sem12, warning=FALSE, message=FALSE}
+# Paso 1. definir la ruta de la carpeta
+path_vect <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
+path_coord <- paste(path_vect, "DescargaOvitrampasMesFco.txt", sep = "/")
+
+# Paso 2. definir el resto de argumentos y aplicar la función
+deneggs::eggs_risk(path_vect = path_vect,
+                   path_coord = path_coord,
+                   weeks = 12,
+                   locality = c("Oaxaca De Juárez",
+                                "Santa Lucía Del Camino"),
+                   risk = TRUE)
+```
+
+
+
