@@ -1,0 +1,53 @@
+---
+title: "Vigilancia Entomológica con Ovitrampas en Oaxaca"
+subtitle: "Jurisdicción Sanitaria 01 Valles Centrales"
+format: 
+  html:
+      theme: flatly
+      code-fold: true
+      toc: true
+      number-sections: true
+title-block-banner: true
+editor: visual
+#bibliography: references.bib
+execute:
+  freeze: auto
+---
+
+
+
+## Indicador Entomológico por Ovitrampas ó Casa
+
+### 2024
+```{r ovitraps_2024, warning=FALSE, message=FALSE}
+path <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+deneggs::ovitraps_occupancy_abundancy(path_ovitraps  = path,
+                                      scale = "ovitraps")
+```
+
+
+### 2025
+```{r ovitraps_2025, warning=FALSE, message=FALSE}
+path <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
+deneggs::ovitraps_occupancy_abundancy(path_ovitraps  = path,
+                                      scale = "ovitraps")
+```
+
+
+
+## Indicador Entomológico por Manzana
+
+### 2024
+```{r blocks_2024, warning=FALSE, message=FALSE}
+path <- "/Users/felipedzul/Dropbox/CENAPRECE/2024/20_oaxaca"
+deneggs::ovitraps_occupancy_abundancy(path_ovitraps  = path,
+                                      scale = "blocks")
+```
+
+
+### 2025
+```{r blocks_2025, warning=FALSE, message=FALSE}
+path <- "/Users/felipedzul/Dropbox/CENAPRECE/2025/20_oaxaca"
+deneggs::ovitraps_occupancy_abundancy(path_ovitraps  = path,
+                                      scale = "blocks")
+```
